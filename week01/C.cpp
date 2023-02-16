@@ -10,5 +10,5 @@ int main(){
     int n;
     cin >> n;
     int ans = fact(n);
-    cout << ans;
+    cout << ans <<endl;
 }

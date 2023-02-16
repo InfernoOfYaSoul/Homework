@@ -10,5 +10,5 @@ int main(){
     int a, b;
     cin >> a >> b;
     int ans = evkl(a, b);
-    cout << ans;
+    cout << ans << endl;
 }
