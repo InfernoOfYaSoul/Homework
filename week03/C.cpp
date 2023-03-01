@@ -12,15 +12,17 @@ void swap(int& lha, int& rha){
 }
 
 int main() {
-    int a[N];
+    int a[N], n;
+    cin >> n;
     for(int i = 0; i < N; i++){
         cin >> a[i];
     }
-    for(int i = N - 2; i >= 0; i--){
-        swap(a[i], a[i + 1]);
+    for(int k = 0; k < n; k++){
+        for(int i = N - 2; i >= 0; i--){
+            swap(a[i], a[i + 1]);
+        }
     }
     for(int i =0; i < N; i++){
         cout << a[i] << " ";
     }
-    cout << endl;
 }
