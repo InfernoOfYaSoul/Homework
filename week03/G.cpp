@@ -2,7 +2,7 @@
 using namespace std;
 
 #ifndef N
-#define N 10
+#define N 5
 #endif
 
 
@@ -12,10 +12,9 @@ int main(){
     for(int i = 0; i < N; i++){
         cin >> a[i];
     }
-    int r = 0;
-    for (int i = 0; i < N; i++){ 
-        r ^= a[i];
+    for (int i = 1; i < N; i++){ 
+        a[0] ^= a[i];
     }
-    cout << r;
+    cout << a[0] << endl;
 
 }
