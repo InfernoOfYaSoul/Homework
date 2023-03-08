@@ -26,7 +26,7 @@ void generator(int (&array)[N]){
 }
 
 int main(){
-    freopen("1lin_output.csv", "w", stdout);
+    freopen("1lin_output.txt", "w", stdout);
     int arr[N];
     generator(arr);
 
