@@ -47,6 +47,7 @@ void generate_array(unsigned (&array)[N]){
         array[i] = dstr(rng);
     }
 }
+ 
 
 int main(){
     unsigned arr[N];
@@ -57,7 +58,7 @@ int main(){
     cout << endl; 
 
     shaker(arr, 0, N);
-    
+
     for (int i = 0; i < N; i++){
         cout << arr[i] << ' ';
     }
