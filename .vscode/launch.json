@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/dmitriiivanov/Homework/week01",
-      "program": "/Users/dmitriiivanov/Homework/week01/build/Debug/outDebug"
+      "cwd": "/Users/dmitriiivanov/Homework/3_sem",
+      "program": "/Users/dmitriiivanov/Homework/3_sem/build/Debug/outDebug"
     }
   ]
 }
